@@ -1,0 +1,21 @@
+MDBCardImage{
+  height: 50px;
+}
+
+/* styles.css */
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-item {
+  background-color: #f0f0f0;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filter-item:hover {
+  background-color: #e0e0e0;
+}
