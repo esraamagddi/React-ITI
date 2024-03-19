@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import Input from "../componants/Input";
+import Button from "../componants/Button";
 function Form() {
     const patternOfEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const [isFormSubmitted, setIseFormSubmiited] = useState(false);
@@ -104,7 +105,9 @@ function Form() {
                 <Input type='file' onchange={handleChange} name="image"></Input>
                 {userInfoErrs.imageErr && <p>{userInfoErrs.imageErr}</p>}
             </div>
-            <button onClick={handleSubmit}>submit</button>
+
+            <Button  name={"submit"} color={"black"} onClick={handleSubmit}/>
+
         </form>
     );
 }

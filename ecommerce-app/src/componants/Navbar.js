@@ -52,7 +52,7 @@ export default function Navbar() {
                 activeClassName='active'
                 onClick={toggleNavbar}
               >
-                About
+                Login
               </NavLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
