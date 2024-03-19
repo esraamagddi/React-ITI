@@ -47,7 +47,7 @@ export default function Navbar() {
             </MDBNavbarItem>
             <MDBNavbarItem>
               <NavLink
-                // to='/products/:productId'
+                to='/login'
                 className='nav-link'
                 activeClassName='active'
                 onClick={toggleNavbar}
